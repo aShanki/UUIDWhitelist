@@ -1,0 +1,12 @@
+name: uuid-whitelist
+version: '${version}'
+main: com.funniray.uuidwhitelist.UuidWhitelist
+api-version: '1.20'
+
+commands:
+  uuidwhitelist:
+    description: Whitelists players by UUID
+    permission: minecraft.command.whitelist
+    usage: /uuidwhitelist <uuid>
+    aliases:
+      - uwhitelist
